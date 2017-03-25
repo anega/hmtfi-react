@@ -1,0 +1,16 @@
+footer {
+  background-color: #fff;
+  margin-top: 30px;
+  height: 90px;
+  width: 100%;
+  p {
+    color: #999;
+    line-height: 90px;
+  }
+  .site-name {
+    float: left;
+  }
+  .wrap p:last-child {
+    float: right;
+  }
+}

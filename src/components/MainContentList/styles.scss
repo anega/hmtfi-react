@@ -1,0 +1,48 @@
+.content {
+  overflow: hidden;
+}
+
+.content .announcement-list li {
+  background-color: #fff;
+  clear: both;
+  margin-bottom: 15px;
+  padding: 0 35px 0 0;
+  position: relative;
+  min-height: 130px;
+}
+
+.content .announcement-list li .announcement-img-wrap {
+  float: left;
+  margin-right: 20px;
+  width: 180px;
+  height: 130px;
+}
+
+.content .announcement-list li img {
+  max-width: 180px;
+  max-height: 130px;
+}
+
+.content .announcement-list li .announcement-prev-description {
+  overflow: hidden;
+}
+
+.content .announcement-list li .announcement-prev-description h2 {
+  color: #19B6A5;
+  cursor: pointer;
+  font-weight: 400;
+  margin: 10px 0 5px;
+}
+
+.content .announcement-list li .announcement-prev-description p {
+  padding-bottom: 25px;
+}
+
+.content .announcement-list li .announcement-prev-description span {
+  background-color: #1BB6A7;
+  color: #fff;
+  padding: 3px 4px;
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+}

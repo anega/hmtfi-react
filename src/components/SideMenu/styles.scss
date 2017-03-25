@@ -1,0 +1,70 @@
+.l-sidebar {
+  float: left;
+  margin-right: 20px;
+  width: 380px;
+}
+
+.l-sidebar-menu li {
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  color: #117969;
+  cursor: pointer;
+  font-size: 130%;
+  padding: 28px 125px;
+  position: relative;
+}
+
+.l-sidebar-menu li:hover {
+  background-color: #1FBFB3;
+  color: #fff;
+}
+
+.l-sidebar-menu li .icon {
+  background: url('../src/assets/images/icons-menu.png') no-repeat left top;
+  display: block;
+  position: absolute;
+  left: 40px;
+  top: 23px;
+  width: 40px;
+  height: 32px;
+}
+
+.l-sidebar-menu li .icon-people {
+  background-position: 0 0;
+}
+
+.l-sidebar-menu li:hover .icon-people {
+  background-position: -50px 0;
+}
+
+.l-sidebar-menu li .icon-animals {
+  background-position: 0 -50px;
+}
+
+.l-sidebar-menu li:hover .icon-animals {
+  background-position: -50px -50px;
+}
+
+.l-sidebar-menu li .icon-things {
+  background-position: 0 -100px;
+}
+
+.l-sidebar-menu li:hover .icon-things {
+  background-position: -50px -100px;
+}
+
+.l-sidebar-menu li .icon-crime {
+  background-position: 0 -140px;
+}
+
+.l-sidebar-menu li:hover .icon-crime {
+  background-position: -50px -140px;
+}
+
+.l-sidebar-menu li .icon-settings {
+  background-position: 0 -182px;
+}
+
+.l-sidebar-menu li:hover .icon-settings {
+  background-position: -50px -182px;
+}
