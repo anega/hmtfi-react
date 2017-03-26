@@ -1,10 +1,14 @@
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 import Header from '../Header/index';
 import SideMenu from '../SideMenu/index';
-import ContentList from '../MainContentList/index';
+import ContentList from '../AnnouncementsList/index';
 import Footer from '../Footer/index';
 
 class App extends Component {
+    static propTypes = {
+        children: PropTypes.object.isRequired
+    };
+
     render() {
         return (
             <div>
@@ -12,7 +16,8 @@ class App extends Component {
                 <content>
                     <div className="wrap">
                         <SideMenu/>
-                        <ContentList/>
+                        {/*<ContentList/>*/}
+                        {this.props.children}
                     </div>
                 </content>
                 <Footer/>

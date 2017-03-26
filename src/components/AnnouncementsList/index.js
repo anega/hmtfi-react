@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class MainList extends Component {
+class AnnouncementsList extends Component {
     render() {
         return (
             <div className="content">
@@ -71,4 +71,4 @@ class MainList extends Component {
     }
 }
 
-export default MainList;
+export default AnnouncementsList;
