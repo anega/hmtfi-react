@@ -16,7 +16,6 @@ class App extends Component {
                 <content>
                     <div className="wrap">
                         <SideMenu/>
-                        {/*<ContentList/>*/}
                         {this.props.children}
                     </div>
                 </content>
