@@ -1105,10 +1105,6 @@ clap@^1.0.9:
   dependencies:
     chalk "^1.1.3"
 
-classnames@^2.1.2, classnames@^2.2.3, classnames@^2.2.4, classnames@^2.2.5:
-  version "2.2.5"
-  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.5.tgz#fb3801d453467649ef3603c7d61a02bd129bde6d"
-
 cli-cursor@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/cli-cursor/-/cli-cursor-1.0.2.tgz#64da3f7d56a54412e59794bd62dc35295e8f2987"
@@ -1463,7 +1459,7 @@ deep-diff@0.3.4:
   version "0.3.4"
   resolved "https://registry.yarnpkg.com/deep-diff/-/deep-diff-0.3.4.tgz#aac5c39952236abe5f037a2349060ba01b00ae48"
 
-deep-extend@^0.4.1, deep-extend@~0.4.0:
+deep-extend@~0.4.0:
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/deep-extend/-/deep-extend-0.4.1.tgz#efe4113d08085f4e6f9687759810f807469e2253"
 
@@ -2909,7 +2905,7 @@ minimist@^1.1.3, minimist@^1.2.0:
   dependencies:
     minimist "0.0.8"
 
-moment@^2.15.1, moment@^2.17.1, moment@^2.18.0:
+moment@^2.18.0:
   version "2.18.0"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.18.0.tgz#6cfec6a495eca915d02600a67020ed994937252c"
 
@@ -3660,73 +3656,17 @@ rc@~1.1.6:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-addons-create-fragment@^15.4.2:
-  version "15.4.2"
-  resolved "https://registry.yarnpkg.com/react-addons-create-fragment/-/react-addons-create-fragment-15.4.2.tgz#11372924f730a97dff4c690535211bb73d8f8815"
-  dependencies:
-    fbjs "^0.8.4"
-    object-assign "^4.1.0"
-
-react-addons-css-transition-group@^15.4.2:
-  version "15.4.2"
-  resolved "https://registry.yarnpkg.com/react-addons-css-transition-group/-/react-addons-css-transition-group-15.4.2.tgz#b7828834dfa14229fe07750e331e8a8cb6fb7745"
-  dependencies:
-    fbjs "^0.8.4"
-    object-assign "^4.1.0"
-
-react-datepicker@^0.41.1:
-  version "0.41.1"
-  resolved "https://registry.yarnpkg.com/react-datepicker/-/react-datepicker-0.41.1.tgz#21c26cc3821bee01eb6deb650880fa98f44588ec"
-  dependencies:
-    classnames "^2.2.5"
-    moment "^2.17.1"
-    react-onclickoutside "^5.9.0"
-    tether "^1.4.0"
-
 react-deep-force-update@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/react-deep-force-update/-/react-deep-force-update-1.0.1.tgz#f911b5be1d2a6fe387507dd6e9a767aa2924b4c7"
 
-react-dom@^15.0.2, react-dom@^15.4.1:
+react-dom@^15.4.1:
   version "15.4.2"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-15.4.2.tgz#015363f05b0a1fd52ae9efdd3a0060d90695208f"
   dependencies:
     fbjs "^0.8.1"
     loose-envify "^1.1.0"
     object-assign "^4.1.0"
-
-react-dropdowns-datepicker@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/react-dropdowns-datepicker/-/react-dropdowns-datepicker-1.0.2.tgz#6d01534302ee518d04d16debba1bbb2be0bba8a4"
-  dependencies:
-    classnames "^2.1.2"
-    moment "^2.15.1"
-
-react-image-cropper@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/react-image-cropper/-/react-image-cropper-1.0.5.tgz#084e0e2a06a4cbc07c63a85fe74b96c25e10fde4"
-  dependencies:
-    deep-extend "^0.4.1"
-    react "^15.0.2"
-    react-dom "^15.0.2"
-
-react-input-autosize@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/react-input-autosize/-/react-input-autosize-1.1.0.tgz#3fe1ac832387d8abab85f6051ceab1c9e5570853"
-
-react-onclickoutside@^5.9.0:
-  version "5.9.0"
-  resolved "https://registry.yarnpkg.com/react-onclickoutside/-/react-onclickoutside-5.9.0.tgz#c47bb506384adc98d686d134b34412ed17b97437"
-
-react-paginate@^4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/react-paginate/-/react-paginate-4.1.1.tgz#32a51b198669999604df23e34bab2f58273e7612"
-  dependencies:
-    classnames "^2.2.5"
-
-react-popup@^0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/react-popup/-/react-popup-0.6.0.tgz#e19eed71f5872f05dd3838dc1a372ef9b3ab28cb"
 
 react-proxy@^1.1.7:
   version "1.1.8"
@@ -3759,20 +3699,6 @@ react-router@^3.0.0:
     loose-envify "^1.2.0"
     warning "^3.0.0"
 
-react-select@^1.0.0-rc.3:
-  version "1.0.0-rc.3"
-  resolved "https://registry.yarnpkg.com/react-select/-/react-select-1.0.0-rc.3.tgz#94ade090522153067eff09282d0525249ea1d9e3"
-  dependencies:
-    classnames "^2.2.4"
-    react-input-autosize "^1.1.0"
-
-react-spinkit@^2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/react-spinkit/-/react-spinkit-2.1.1.tgz#a666f02367147de8151c1f7671453d56cef4650f"
-  dependencies:
-    classnames "^2.2.3"
-    object-assign "^4.1.0"
-
 react-transform-hmr@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/react-transform-hmr/-/react-transform-hmr-1.0.4.tgz#e1a40bd0aaefc72e8dfd7a7cda09af85066397bb"
@@ -3780,7 +3706,7 @@ react-transform-hmr@^1.0.4:
     global "^4.3.0"
     react-proxy "^1.1.7"
 
-react@^15.0.2, react@^15.4.1:
+react@^15.4.1:
   version "15.4.2"
   resolved "https://registry.yarnpkg.com/react/-/react-15.4.2.tgz#41f7991b26185392ba9bae96c8889e7e018397ef"
   dependencies:
@@ -3876,6 +3802,10 @@ redux-logger@^2.8.1:
   resolved "https://registry.yarnpkg.com/redux-logger/-/redux-logger-2.8.1.tgz#c00e689ba00342f44858701d76b1d73fbade72bd"
   dependencies:
     deep-diff "0.3.4"
+
+redux-thunk@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/redux-thunk/-/redux-thunk-2.2.0.tgz#e615a16e16b47a19a515766133d1e3e99b7852e5"
 
 redux@^3.6.0:
   version "3.6.0"
@@ -4445,10 +4375,6 @@ tar@^2.0.0, tar@~2.2.1:
     fstream "^1.0.2"
     inherits "2"
 
-tether@^1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/tether/-/tether-1.4.0.tgz#0f9fa171f75bf58485d8149e94799d7ae74d1c1a"
-
 text-table@~0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
@@ -4613,7 +4539,7 @@ uuid@^2.0.2:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-2.0.3.tgz#67e2e863797215530dff318e5bf9dcebfd47b21a"
 
-uuid@^3.0.0, uuid@^3.0.1:
+uuid@^3.0.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.0.1.tgz#6544bba2dfda8c1cf17e629a3a305e2bb1fee6c1"
 
