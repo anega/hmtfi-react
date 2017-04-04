@@ -1,17 +1,11 @@
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
-import API from '../../services/api';
-import * as announcementActions from '../../actions/announcementActions';
-import AnnouncementItem from './AnnouncementItem';
+import AnnouncementItem from './AnnouncementListItem';
 
 class AnnouncementsList extends Component {
-    constructor(props) {
-        super(props);
-
-        this.state = {
-            announcementsList: []
-        };
-    }
+    static propTypes = {
+        announcementsList: PropTypes.array.isRequired
+    };
 
     render() {
         return (

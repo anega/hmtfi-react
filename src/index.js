@@ -5,10 +5,10 @@ import { Provider } from 'react-redux';
 import { Router, browserHistory } from 'react-router';
 import routes from './router';
 import App from './components/App/index';
-import { loadAnnouncements } from './actions/announcementActions';
+import { loadAnnouncementsList } from './actions/announcementActions';
 
 const store = configureStore();
-store.dispatch(loadAnnouncements());
+store.dispatch(loadAnnouncementsList());
 
 render(
     <Provider store={store}>

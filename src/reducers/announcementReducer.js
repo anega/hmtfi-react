@@ -3,7 +3,7 @@ import initialState from './initialState';
 
 export default function announcementReducer(state = initialState.announcementsList, action) {
     switch (action.type) {
-        case types.LOAD_ANNOUNCEMENTS:
+        case types.LOAD_ANNOUNCEMENTS_SUCCESS:
             return action.announcementsList;
             break;
 

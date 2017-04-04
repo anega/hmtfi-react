@@ -1,18 +1,18 @@
 import * as types from './actionTypes';
 import AnnouncementsApi from '../services/api';
 
-export function loadAnnouncementsList(announcementsList) {
+export function loadAnnouncementsListSuccess(announcementsList) {
     return {
-        type: types.LOAD_ANNOUNCEMENTS,
+        type: types.LOAD_ANNOUNCEMENTS_SUCCESS,
         announcementsList
     };
 }
 
-export function loadAnnouncements() {
+export function loadAnnouncementsList() {
     return dispatch => {
         return AnnouncementsApi.getAnnouncementsList()
             .then(announcementsList => {
-                dispatch(loadAnnouncementsList(announcementsList));
+                dispatch(loadAnnouncementsListSuccess(announcementsList));
             })
             .catch(err => {
                 console.log(err);
