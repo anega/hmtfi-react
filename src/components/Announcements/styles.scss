@@ -46,3 +46,67 @@
   right: 0;
   bottom: 10px;
 }
+
+/* Gallery */
+.gallery {
+  position: relative;
+}
+
+.gallery .gallery-list {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+}
+
+.gallery .gallery-list ul {
+  margin: 0 auto;
+  width: 240px;
+}
+
+.gallery .gallery-list li {
+  cursor: pointer;
+  float: left;
+  margin: 10px 5px;
+}
+
+/* Announcement description */
+.announcement-info {
+  background-color: #fff;
+  padding: 30px 20px;
+  position: relative;
+}
+
+.announcement-info .connect-user {
+  background-color: #1BB6A7;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 110%;
+  padding: 10px 15px;
+  position: absolute;
+  top: 30px;
+  right: 20px;
+}
+
+.announcement-info h2 {
+  color: #1FBFB2;
+  font-weight: 400;
+  margin-bottom: 10px;
+  padding-right: 90px;
+}
+
+.announcement-info .announcement-full-description p {
+  margin-bottom: 8px;
+}
+
+.announcement-map {
+  position: relative;
+}
+
+.announcement-map .map-pin {
+  position: absolute;
+  top: 35%;
+  left: 63%;
+}
