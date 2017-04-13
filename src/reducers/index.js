@@ -1,8 +1,8 @@
-import { combineReducers } from 'redux';
-import announcementsList from './announcementReducer';
+import { combineReducers } from 'redux'
+import announcementsList from './announcementReducer'
 
 const rootReducer = combineReducers({
-    announcementsList
-});
+  announcementsList
+})
 
-export default rootReducer;
+export default rootReducer

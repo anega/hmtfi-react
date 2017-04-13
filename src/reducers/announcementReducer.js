@@ -1,13 +1,12 @@
-import * as types from '../actions/actionTypes';
-import initialState from './initialState';
+import * as types from '../actions/actionTypes'
+import initialState from './initialState'
 
-export default function announcementReducer(state = initialState.announcementsList, action) {
-    switch (action.type) {
-        case types.LOAD_ANNOUNCEMENTS_SUCCESS:
-            return action.announcementsList;
-            break;
+export default function announcementReducer (state = initialState.announcementsList, action) {
+  switch (action.type) {
+    case types.LOAD_ANNOUNCEMENTS_SUCCESS:
+      return action.announcementsList
 
-        default:
-            return state;
-    }
+    default:
+      return state
+  }
 }
