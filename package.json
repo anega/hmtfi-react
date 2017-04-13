@@ -6,7 +6,9 @@
   "scripts": {
     "start": "node server.js",
     "build": "NODE_ENV=production cross-env BABEL_ENV=production webpack --config webpack.config.js --progress",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test": "standard",
+    "fix": "./node_modules/.bin/standard --fix"
   },
   "dependencies": {
     "axios": "^0.15.3",
@@ -49,6 +51,7 @@
     "resolve-url-loader": "^1.6.1",
     "sass-loader": "^4.1.1",
     "scss-loader": "0.0.1",
+    "standard": "^10.0.1",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
     "webpack": "^1.14.0",
