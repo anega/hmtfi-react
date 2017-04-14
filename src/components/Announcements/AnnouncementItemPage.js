@@ -1,5 +1,6 @@
 import React, { Component, PropTypes } from 'react'
 import { connect } from 'react-redux'
+import GettingStartedExample from './map'
 
 class AnnouncementItemPage extends Component {
   componentWillReceiveProps (nextProps) {
@@ -27,8 +28,9 @@ class AnnouncementItemPage extends Component {
           <div className='announcement-full-description'>{this.props.announcement.about}</div>
         </div>
         <div className='announcement-map'>
-          <img src='./src/assets/images/test-map.jpg' alt='' />
-          <img className='map-pin' src='./src/assets/images/map-pin.png' alt='' />
+          <GettingStartedExample />
+          {/* <img src='./src/assets/images/test-map.jpg' alt='' /> */}
+          {/* <img className='map-pin' src='./src/assets/images/map-pin.png' alt='' /> */}
         </div>
       </div>
     )
