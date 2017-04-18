@@ -1,6 +1,6 @@
 import React, { Component, PropTypes } from 'react'
 import { connect } from 'react-redux'
-import GettingStartedExample from './map'
+import MapComponent from '../GoogleMaps/MapComponent'
 
 class AnnouncementItemPage extends Component {
   componentWillReceiveProps (nextProps) {
@@ -10,6 +10,15 @@ class AnnouncementItemPage extends Component {
   }
 
   render () {
+    let marker = {
+      position: {
+        lat: +this.props.announcement.latitude,
+        lng: +this.props.announcement.longitude
+      },
+      key: this.props.announcement.id,
+      defaultAnimation: 2
+    }
+
     return (
       <div className='content'>
         <div className='gallery'>
@@ -28,9 +37,7 @@ class AnnouncementItemPage extends Component {
           <div className='announcement-full-description'>{this.props.announcement.about}</div>
         </div>
         <div className='announcement-map'>
-          <GettingStartedExample />
-          {/* <img src='./src/assets/images/test-map.jpg' alt='' /> */}
-          {/* <img className='map-pin' src='./src/assets/images/map-pin.png' alt='' /> */}
+          <MapComponent marker={marker} center={marker.position} />
         </div>
       </div>
     )
