@@ -4,12 +4,13 @@ import AnnouncementItem from './AnnouncementListItem'
 
 class AnnouncementsList extends Component {
   render () {
+    console.log('this.props', this.props)
     return (
       <div className='content'>
         <ul className='announcement-list'>
           {this.props.announcementsList.map(announcement =>
-            <AnnouncementItem key={announcement.id} announcement={announcement} />
-                    )}
+            <AnnouncementItem key={announcement.id} announcement={announcement}/>
+          )}
         </ul>
       </div>
     )
